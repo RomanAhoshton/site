@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/img/img-background-picture@2x.png);
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 646px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+  padding: 0 15px;
+}
+
+.Logo {
+  width: 174px;
+  height: 35px;
+}
+
+.Logo img {
+  width: 100%;
+}
+
+.title {
+  margin-top: 88px;
+  font-family: SFProText;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: -0.96px;
+  text-align: center;
+  color: #fff;
+}
+
+.link_button {
+  width: 273px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: -0.31px;
+  text-align: center;
+  color: #4a90e2;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.Or {
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 273px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #007aff;
+  border: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.facebook_button {
+  width: 273px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #007aff;
+  border: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 27px;
+}
+
+.footer_text {
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.96px;
+  text-align: center;
+  color: #fff;
+}
+.footer_text span {
+  font-weight: 700;
+}
